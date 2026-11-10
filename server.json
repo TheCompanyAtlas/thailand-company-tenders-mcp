@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.TheCompanyAtlas/thailand-company-tenders",
+  "title": "Thailand Company Registry & Government Tenders",
+  "description": "Thai company search by name, juristic id and TSIC, plus e-GP tenders, bidders and winners.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/TheCompanyAtlas/thailand-company-tenders-mcp",
+    "source": "github"
+  },
+  "websiteUrl": "https://thecompanyatlas.com/tools/thailand-company-tenders",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://thecompanyatlas.com/mcp/thailand"
+    }
+  ]
+}
